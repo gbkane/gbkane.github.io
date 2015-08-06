@@ -48,6 +48,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.group:after {
+		content:"";
+		display: block;
+		clear:both;
+
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1718,13 +1725,18 @@
 			}
 
 		.image.fit {
+			float: left;
 			display: block;
-			width: 100%;
+			width: 400px;
 			/*border: 1px solid #aaa;*/
 			border-radius: 3px;
 			transition: 500ms;
 			box-shadow: -5px -5px 15px #777;
-			overflow: hidden;
+			margin: auto;
+		}
+
+		.image.fit:nth-child(odd){
+			float: right;
 		}
 
 		.image.fit:hover {
@@ -1947,31 +1959,49 @@
 
 	.item {
 		display: block;
-		width: 500px;
+		/*width: 500px;*/
+		width: 100%;
 		/*box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);*/
 		margin: auto;
 		margin-bottom: 60px;
 
 	}
 
-		.item header {
-			/*background: transparent;*/
-			margin: 0;
-			padding: 1em 0 3em 0;
-			font-size: 0.8em;
-			text-align: left;
-		}
+	.item header {
+		/*background: transparent;*/
+		display: block;
+		margin: 0;
+		width: 400px;
+		padding: 1em 0 1em 0;
+		font-size: 0.8em;
+		text-align: left;
+		float: left;
+	}
 
-			.item header h3 {
-				font-size: 1.5em;
-				float: left;
+	.item header.two{
+		float: right;
+		/*text-align: right;*/
+	}
 
-			}
+	.item header h3 {
+		font-size: 1.5em;
+		float: left;
 
-			.item .navs {
-				float: right;
+	}
 
-			}
+	.item .navs {
+		float: right;
+	}
+
+	.project-description {
+		max-width: 40%;
+		float: right;
+		text-align: justify;
+	}
+
+	.project-description:nth-child(even){
+		float: left;
+	}
 
 /* Icons */
 
