@@ -1650,7 +1650,7 @@
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #af0101;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1714,14 +1714,15 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			width: 100px;
+			height: 100px;
+			/*background: #f00;*/
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
 			}
 
 		.image.fit {
@@ -1742,7 +1743,7 @@
 
 		.image.fit:hover {
 			transition: 500ms;
-			box-shadow: -5px -5px 15px #E27689;
+			box-shadow: -0px -0px 15px #af0101;
 
 		}
 
@@ -2074,8 +2075,8 @@
 
 	#logo {
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
+		margin: 1.75em 1.5em 1.75em 1.5em;
+		min-height: 50px;
 		cursor: default;
 	}
 
@@ -2099,7 +2100,7 @@
 		#logo .image {
 			position: absolute;
 			left: 0;
-			top: 0;
+			top: -25px;
 		}
 
 	#nav ul li a {
@@ -2130,14 +2131,22 @@
 				line-height: 1.75em;
 			}
 
+		#nav ul li a:hover{
+			background: #000;
+			/*color: #000;*/
+		}
+
+
 		#nav ul li a.active {
-			background: rgba(0, 0, 0, 0.15);
+			background: #aaa;
 			box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-			color: #fff;
+			color: #000;
+			font-weight: 700;
 		}
 
 			#nav ul li a.active span:before {
-				color: #e27689;
+				/*color: #e27689;*/
+				color: #af0101;
 			}
 
 /* Footer */
