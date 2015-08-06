@@ -1733,6 +1733,7 @@
 			transition: 500ms;
 			box-shadow: -5px -5px 15px #777;
 			margin: auto;
+			overflow: hidden;
 		}
 
 		.image.fit:nth-child(odd){
