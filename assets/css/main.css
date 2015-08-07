@@ -2023,8 +2023,8 @@
 	}
 	
 	#skills li > img {
-		width: 100px;
-		height: 120px;
+		
+		height: 100px;
 		margin: auto;
 		background: transparent;
 	}
