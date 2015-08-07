@@ -2338,7 +2338,33 @@
 						margin-left: -1.25em;
 						line-height: 2.25em;
 					}
-
+					
+					
+		/* Skills */
+		
+		#skills {
+			background: #fff;
+			border-radius: 20px;
+			width: auto;
+		}
+		
+		#skills li {
+			float: left;
+			width: 180px;
+			margin-top: 40px;
+		}
+		
+		#skills li > img {
+			width: 100px;
+			height: 120px;
+			margin: auto;
+			background: transparent;
+		}
+		
+		#skills li > h3 {
+			font-size: 20px;	
+		}
+		
 		/* Footer */
 
 			#footer {
