@@ -1730,9 +1730,10 @@
 			display: block;
 			width: 400px;
 			/*border: 1px solid #aaa;*/
-			border-radius: 3px;
+			border-radius: 5px;
 			transition: 500ms;
-			box-shadow: -5px -5px 15px #777;
+			/*box-shadow: -5px -5px 15px #777;*/
+			box-shadow: -0px -0px 20px #222;
 			margin: auto;
 			overflow: hidden;
 		}
@@ -2005,7 +2006,17 @@
 		float: left;
 	}
 	
-	/* Skills */
+	/* About */
+	
+	#about .image.featured{
+		border-radius: 3px;
+		box-shadow: -0px -0px 40px #222;	
+	}
+	
+	
+	#about p {
+		text-align: justify;	
+	}
 		
 	#skills {
 		background: #fff;
@@ -2013,7 +2024,8 @@
 		margin: auto;
 		max-width: 900px;
 		padding-bottom: 40px;
-		box-shadow: -5px -5px 15px #777;
+		/*box-shadow: -5px -5px 15px #777;*/
+		box-shadow: -0px -0px 40px #222;
 	}
 	
 	#skills li {
@@ -2023,7 +2035,6 @@
 	}
 	
 	#skills li > img {
-		
 		height: 100px;
 		margin: auto;
 		background: transparent;
@@ -2262,6 +2273,7 @@
 
 			#main > section.three {
 				background-color: #ecf1f1;
+
 			}
 
 			#main > section.four {
