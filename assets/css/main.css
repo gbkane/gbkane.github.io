@@ -2014,7 +2014,7 @@
 	}
 	
 	
-	#about p {
+	#about p, #contact p {
 		text-align: justify;	
 	}
 		
@@ -2095,12 +2095,13 @@
 		}
 
 		#header .icons {
-			font-size: 0.8em;
+			font-size: 1.5em;
 			margin: 0 0 1em 0;
 			text-align: center;
 		}
 
 			#header .icons a {
+				
 				color: #41484c;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
@@ -2152,7 +2153,7 @@
 		-moz-transition: none;
 		-webkit-transition: none;
 		-ms-transition: none;
-		transition: none;
+		transition: 350ms;
 	}
 
 		#nav ul li a span {
@@ -2172,6 +2173,7 @@
 
 		#nav ul li a:hover{
 			background: #000;
+			transition: 350ms;
 			/*color: #000;*/
 		}
 
@@ -2343,7 +2345,7 @@
 		/* List */
 
 			ul.icons li a {
-				width: 1.75em;
+				width: 1em;
 			}
 
 		/* Item */
