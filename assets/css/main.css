@@ -2004,6 +2004,34 @@
 	.project-description:nth-child(even){
 		float: left;
 	}
+	
+	/* Skills */
+		
+	#skills {
+		background: #fff;
+		border-radius: 20px;
+		margin: auto;
+		max-width: 900px;
+		padding-bottom: 40px;
+		box-shadow: -5px -5px 15px #777;
+	}
+	
+	#skills li {
+		float: left;
+		width: 180px;
+		margin-top: 40px;
+	}
+	
+	#skills li > img {
+		width: 100px;
+		height: 120px;
+		margin: auto;
+		background: transparent;
+	}
+	
+	#skills li > h3 {
+		font-size: 20px;	
+	}
 
 /* Icons */
 
@@ -2339,31 +2367,6 @@
 						line-height: 2.25em;
 					}
 					
-					
-		/* Skills */
-		
-		#skills {
-			background: #fff;
-			border-radius: 20px;
-			width: auto;
-		}
-		
-		#skills li {
-			float: left;
-			width: 180px;
-			margin-top: 40px;
-		}
-		
-		#skills li > img {
-			width: 100px;
-			height: 120px;
-			margin: auto;
-			background: transparent;
-		}
-		
-		#skills li > h3 {
-			font-size: 20px;	
-		}
 		
 		/* Footer */
 
