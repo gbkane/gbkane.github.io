@@ -1,1 +1,2 @@
-# Welcome to [Greg's Portfolio][gregorykane.co]!
+# Welcome to Greg's Portfolio!
+### [Live][http://gregorykane.co]
