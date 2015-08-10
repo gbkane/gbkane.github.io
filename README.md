@@ -1,1 +1,1 @@
-# Welcome to [Greg's Portfolio][http://gregorykane.co]!
+# Welcome to [Greg's Portfolio][gregorykane.co]!
